@@ -1,0 +1,84 @@
+body, html{
+  height: 100%;
+}
+
+#headerofindex{
+  width: 100%;
+  height: calc(100% - 56px);
+  background-image: url("profile_pics/header1.jpg");
+  background-size: cover;
+}
+.indexheader{
+  font-style: italic;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #003333;
+  font-size: 75px;
+  padding-left: 61px;
+  padding-top: 225px;
+}
+.headerpara{
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  padding-top: 15px;
+  padding-left: 135px;
+}
+#aboutheader{
+  width: 100%;
+  height: 300px;
+  background-image: url("profile_pics/about.jpg");
+  background-size: cover;
+}
+.infoh1{
+  font-style: italic;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #003333;
+  font-size: 75px;
+  padding-left: 90px;
+  padding-top: 90px;
+}
+.infopara{
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  padding-top: 0px;
+  padding-left: 135px;
+}
+.containerinfo{
+  background-color: #f6f6f6;
+  height: 50%;
+}
+.infoh2{
+  padding-top: 30px;
+  padding-left: 50px;
+}
+.aboutpara{
+  padding-left: 70px;
+}
+.infolist{
+  padding-left: 120px;
+}
+.login{
+  border:1px solid black;
+  width: 366px;
+  position: absolute;
+  top:30%;
+  left:50%;
+  transform: translate(-50%, -30%);
+  height: 330px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: lightblue;
+}
+
+.label{
+  width: 40%;
+  display: inline;
+}
+
+.control{
+  width: 60%;
+  display: inline;
+}
