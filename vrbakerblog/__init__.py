@@ -15,8 +15,8 @@ app.config['SECRET_KEY']='mysecret'
 ##DATABASE SETUP#################
 ###############################
 #basedir = os.path.abspath(os.path.dirname(__file__))
-#app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:password@localhost:5432/personalblog'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://bqenjpxafrpouj:5744485dbf9b0ab74e783ace8cfb69742afe376c94b71fbeb3d866b809397c54@ec2-35-171-250-21.compute-1.amazonaws.com:5432/d2up5por7c23uf?sslmode=require'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:password@localhost:5432/personalblog'
+#app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://bqenjpxafrpouj:5744485dbf9b0ab74e783ace8cfb69742afe376c94b71fbeb3d866b809397c54@ec2-35-171-250-21.compute-1.amazonaws.com:5432/d2up5por7c23uf?sslmode=require'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 
